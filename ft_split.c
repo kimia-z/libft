@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_split.c                                         :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: kziari <kziari@42.fr>                      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/22 18:29:55 by kziari            #+#    #+#             */
-/*   Updated: 2023/10/22 18:29:57 by kziari           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libft.h"
 
 static void	ft_freeup(char **s, int i)
@@ -92,17 +80,3 @@ char	**ft_split(char const *s, char c)
 	}
 	return (result);
 }
-/*
-int	main(void)
-{
-	char **result = ft_split("salam|aaaa ||kimia||b|||", '|');
-	int n = ft_wordcount("salam|aaaa ||kimia||b|||", '|');
-	int	i = 0;
-	while (i < n)
-	{
-		printf ("result: %s\n", result[i]);
-		i++;
-	}
-	printf ("countword: %d\n", n);
-	return 0;
-}*/

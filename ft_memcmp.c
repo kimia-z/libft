@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memcmp.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: kziari <kziari@42.fr>                      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/22 18:18:31 by kziari            #+#    #+#             */
-/*   Updated: 2023/10/22 18:18:33 by kziari           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libft.h"
 
 int	ft_memcmp(const void *str1, const void *str2, size_t n)
@@ -31,10 +19,3 @@ int	ft_memcmp(const void *str1, const void *str2, size_t n)
 	}
 	return (0);
 }
-/*
-int	main(void)
-{
-	printf("org function : %d\n", memcmp("Hello", "hello", 5));
-	printf("my function : %d\n", ft_memcmp("Hello", "hello", 5));
-	return 0;
-}*/

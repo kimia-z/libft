@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: kziari <kziari@42.fr>                      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/22 18:13:06 by kziari            #+#    #+#             */
-/*   Updated: 2023/10/22 18:13:09 by kziari           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libft.h"
 
 int	ft_atoi(const char *nptr)
@@ -38,10 +26,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (sign * result);
 }
-/*
-int main(void)
-{
-	printf("org function %d\n", atoi(" \n -12345fs"));
-	printf("my function %d\n", ft_atoi(" \n -12345fs"));
-	return 0;
-}*/

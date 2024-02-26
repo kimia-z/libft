@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: kziari <kziari@42.fr>                      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/22 18:26:55 by kziari            #+#    #+#             */
-/*   Updated: 2023/10/22 18:26:57 by kziari           ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 #include "libft.h"
 
 void	*ft_memmove(void *dest, const void *src, size_t len)
@@ -38,11 +26,4 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	}
 	return (dest);
 }
-/*
-int	main(void)
-{
-	char dest[5];
-	const char *src = "hello world";
-	write(1, ft_memmove(dest, src, 5), 5);
-	return 0;
-}*/
+
